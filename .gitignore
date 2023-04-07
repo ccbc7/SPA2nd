@@ -1,0 +1,27 @@
+# システム固有のファイル
+.DS_Store
+Thumbs.db
+
+# Ruby on Rails
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/config/master.key
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/assets
+/public/packs
+/public/packs-test
+/vendor/bundle
+/.bundle
+.yarn-cache
+
+# Vue.js
+/node_modules
+/dist
+.env*
+
+# その他一般的な項目
+.idea/
+.vscode/
